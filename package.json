@@ -1,0 +1,29 @@
+{
+  "name": "img-pull",
+  "version": "0.0.1",
+  "description": "download all image with predefined range of size from a url",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuhh98/img-pull.git"
+  },
+  "keywords": [
+    "images",
+    "download",
+    "fetch-images"
+  ],
+  "author": "Hoai Phu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phuhh98/img-pull/issues"
+  },
+  "homepage": "https://github.com/phuhh98/img-pull#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "shortid": "^2.2.16"
+  }
+}
