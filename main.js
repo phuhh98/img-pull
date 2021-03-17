@@ -8,11 +8,11 @@
 "use strict";
 require("dotenv").config();
 
-modules.exports.all = function noSize(url, folderName = "download") {
+module.exports.all = function noSize(url, folderName = "download") {
 
     return [];
 }
 
-modules.exports.size = function withSize(url, folderName = "download", minSize = 0, maxSize = null) {
+module.exports.size = function withSize(url, folderName = "download", minSize = 0, maxSize = null) {
     return [];
 }
