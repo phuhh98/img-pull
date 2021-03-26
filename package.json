@@ -2,7 +2,7 @@
   "name": "img-pull",
   "version": "0.0.1",
   "description": "download all image with predefined range of size from a url",
-  "main": "main.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/phuhh98/img-pull#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "dotenv": "^8.2.0",
     "file-type": "^16.3.0",
     "node-fetch": "^2.6.1",
     "shortid": "^2.2.16"
