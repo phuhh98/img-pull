@@ -10,8 +10,9 @@ npm install --save img-pull
 ## Usage
 ### In javascript code
 ```javascript
-const ipull =  new require("img-pull")();
+const ImagePull =  new require("img-pull");
 
+const ipull = new ImagePull();
 ipull.pullSource(url, min_size, max_size);
 ```
 
