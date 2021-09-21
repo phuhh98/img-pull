@@ -18,7 +18,7 @@ ipull.pullSource(url, min_size, max_size);
 
 ### Execute script.js in terminal 
 ```bash
-MIN_SIZE=0 MAX_SIZE=null URL=https://www.google.com node script.js #path to script.js
+MIN_SIZE=0 MAX_SIZE=null URL=https://www.google.com node node_modules/img-pull/script.js
 ```
 
 ### Valid inputs
